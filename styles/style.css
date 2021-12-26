@@ -1,0 +1,29 @@
+.task-box{
+  border: 3px solid black;
+  border-radius: 15px;
+  padding: 3vh;
+  width: 80vh;
+  justify-self: center;
+  margin: 9vh auto;
+  background-color: aliceblue;
+}
+h1{
+  text-align: center;
+}
+.row{
+  border: 1px solid steelblue;
+  width: 75vh;
+  margin: 2vh auto;
+  border-radius: 15px;
+  background-color: white;
+}
+.form{
+  text-align: center;
+}
+i{
+  text-align: right;
+  color: steelblue;
+}
+i:hover{
+  cursor: pointer;
+}
