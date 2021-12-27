@@ -25,7 +25,7 @@ function listTask(){
             name_tag.classList.add("h3");
             trash_tag.id = data[i]["id"];
             trash_tag.classList.add("far","fa-trash-alt");
-            trash_tag.setAttribute("onclick", "hola(this.id)");
+            trash_tag.setAttribute("onclick", "delTask(this.id)");
             date_tag.classList.add("h5");
             name_tag.appendChild(name);
             date_tag.appendChild(date);  
@@ -38,7 +38,7 @@ function listTask(){
     }
 }
 
-function hola(clicked_id){
+function delTask(clicked_id){
     mainurl = 'http://localhost:8080/del/'
     suburl = clicked_id
     let url = mainurl+suburl;
